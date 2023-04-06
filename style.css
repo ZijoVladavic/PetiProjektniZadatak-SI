@@ -1,0 +1,70 @@
+body {
+	font-family: sans-serif;
+	background-color: #ddffbb;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 36px;
+	font-family: Arial, sans-serif;
+	color: #333333;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+#task-container {
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+#task-list {
+	list-style: none;
+	padding: 0;
+}
+
+#task-list li {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#task-list li .delete-btn {
+	background-color: #ff4d4d;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+#task-list li .delete-btn:hover {
+	background-color: #ff3333;
+}
+
+form {
+	width: 400px;
+	margin: 20px auto 0;
+	display: flex;
+}
+
+input[type="text"] {
+	flex: 1;
+	padding: 10px;
+	border: 1px solid #ddd;
+}
+
+button[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+button[type="submit"]:hover {
+	background-color: #3e8e41;
+}
